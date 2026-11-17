@@ -2,6 +2,10 @@ English | [Português](README.pt-BR.md)
 
 # exam-pdf-parser
 
+[![CI](https://github.com/ErickBonruque/exam-pdf-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/ErickBonruque/exam-pdf-parser/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Extracts multiple-choice questions from exam PDFs (stem, alternatives A–E, subject area, official
 answer) into Parquet or JSONL with a validated schema. Measured against official data: 3,700
 questions of ENEM, the Brazilian national high-school exam, from 2020 to 2024.

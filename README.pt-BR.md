@@ -2,6 +2,10 @@
 
 # exam-pdf-parser
 
+[![CI](https://github.com/ErickBonruque/exam-pdf-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/ErickBonruque/exam-pdf-parser/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Extrai questões de múltipla escolha de PDFs de provas (enunciado, alternativas A–E, área, gabarito)
 para Parquet ou JSONL com esquema validado. Medido contra os dados oficiais: 3.700 questões do ENEM
 de 2020 a 2024.
